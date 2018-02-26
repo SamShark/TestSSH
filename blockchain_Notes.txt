@@ -1,0 +1,28 @@
+
+
+■Collision-Free Hash Function
+A function H that maps an arbitrary length message M to a fixed length message digest MD is a collision-free hash function if 
+
+1. It is a one-way hash function. 
+2. It is hard to find two distinct messages (M^',M) that hash to the same result H(M^')=H(M). 
+More precisely, any efficient algorithm (solving a P-problem) succeeds in finding such a collision with negligible probability (Russell 1992). 
+
+REFERENCES:
+Bakhtiari, S.; Safavi-Naini, R.; and Pieprzyk, J. Cryptographic Hash Functions: A Survey. Technical Report 95-09, Department of Computer Science, University of Wollongong, July 1995. ftp://ftp.cs.uow.edu.au/pub/papers/1995/tr-95-09.ps.Z. 
+Russell, A. "Necessary and Sufficient Conditions for Collision-Free Hashing." In Abstracts of Crypto 92. pp. 10-22-10-27, 1992. ftp://theory.lcs.mit.edu/pub/people/acr/hash.ps.
+
+
+■One-Way Hash Function
+
+A function H that maps an arbitrary length message M to a fixed length message digest MD is a one-way hash function if 
+
+1. It is a one-way function. 
+2. Given M and H(M), it is hard to find a message M^'!=M such that H(M^')=H(M). 
+
+<http://mathworld.wolfram.com/One-WayHashFunction.html>
+
+
+■Hash Function
+<http://mathworld.wolfram.com/HashFunction.html>
+
+没太看懂。。。
